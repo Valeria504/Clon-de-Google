@@ -1,0 +1,185 @@
+/*estlos body*/
+body{
+    margin:0;
+    padding: 0;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url(https://th.bing.com/th/id/R.73fec2b8f029a9bbf9be74af15e1b7de?rik=iL5Wa0qHQGFm2A&pid=ImgRaw&r=0);
+}
+/*Subrayado de botones de google*/
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+/*Tamaño página*/
+header{
+    width: 100%;
+    height: 60px;
+}
+/*Sección de perfil justificación*/
+header nav{
+    display: flex;
+    justify-content: flex-end;    
+}
+/*Sección de perfil*/
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3597a;
+}
+/*Color de letras Sección de perfil*/
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: #8b0707;
+}
+/*Icono de aplicaciónes de sección de perfil*/
+nav .nav-right-section .menu-icon{
+    background-image: url('https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+}
+/*Sección de perfil formaro de imágen*/
+nav .nav-right-section img {
+    border-radius: 50px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+/*Tamaño de imágen de google*/
+main .main-logo{
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 300px;
+    height: 120px;
+}
+/*Imágen de anime*/
+main .main-imagen2{
+    width: 100px;
+    height: 100px;
+    margin-left: 800px;
+}
+    
+
+/*Buscador esquinas*/
+main .main-input {
+    width: 540px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+/*Color de borde de buscador y tamaño del espacio en blanco*/
+main .main-input-container{
+    width: 540px;
+    border-radius: 100px;
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    /*Tamaño de rectángulo buscador*/
+    main .main-input input{
+        width: 450px;
+        height: 40px;
+        border: none;
+        outline: none;
+    }
+    /*Color de buscador al poner al dar click*/
+    main .main-input-container:hover{
+        box-shadow: 0 1px 6px 0 #a97df147;
+        border-color: rgb(231, 74, 189);
+    }
+    /*Diseño de lupa del buscador*/
+    main .main-input .search-icon{
+        background-image: url('https://img.icons8.com/android/24/000000/search.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 18px;
+        height: 18px;
+
+    }
+    /*Diseño de icono de audio del buscador*/
+   main .main-input .micro-icon{
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+    }
+
+    main .main-buttons{
+        width: 530px;
+        margin: 0 auto;
+    }
+    main .main-buttons div {
+        display: inline-block;
+        
+    }
+    /*Diseño de botones main*/
+    main .main-buttons button {
+        height: 36px;
+        background-color: #f68ce2;
+        border: 0;
+        font-size: 14px;
+        color: #f3597a;
+        border-radius: 80px;
+        padding: 0 15px;
+        margin-right: 15px;
+        
+    }
+    /*Diseño de botones main al dar click*/
+    main .main-buttons button:hover{
+        border: 1px solid #a430e3;
+        box-shadow: 0 1px 1px #c94ffa;
+        color: #a430e3;
+    }
+    /*Sección de botones del final*/ 
+    footer{
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        font-size: 12px;
+        background-color: #f66c8a;
+        border-top: 1px solid #f6f6f6;
+    }
+
+    footer ul{
+        margin: 10px;
+        list-style: none;
+        display: flex;
+        padding-left:0;
+    }
+/*Alineacón de botones con la sección*/
+.footer-left {
+        justify-self: left;
+    }
+
+.footer-right {
+        justify-self: right;
+    }
+
+    footer ul li a {
+        margin: 10px;
+        color: #b91e6b;
+    }
